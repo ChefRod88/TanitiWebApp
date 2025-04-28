@@ -178,3 +178,40 @@ footer {
     text-align: center;
 
 }
+
+.highlight-section {
+    background: gray;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 40px auto;
+}
+
+    .highlight-section h2 {
+        color: #0077cc;
+        font-size: 32px;
+    }
+
+.extra-info 
+{
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .newsletter-form input {
+        width: 80%;
+        max-width: 400px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .newsletter-form button {
+        margin-top: 10px;
+    }

@@ -8,9 +8,10 @@
     <a asp-controller="Home" asp-action="Attractions" class="btn">Plan Your Trip</a>
 </section>
 
-<section class="quick-links">
+<section class="quick-links highlight-section">
     <h2>Explore</h2>
     <div class="links">
+        <a asp-controller="Home" asp-action="About" class="card">About Taniti</a>
         <a asp-controller="Home" asp-action="Attractions" class="card">Attractions</a>
         <a asp-controller="Home" asp-action="Lodging" class="card">Lodging</a>
         <a asp-controller="Home" asp-action="Dining" class="card">Dining</a>
@@ -31,16 +32,28 @@
 
 <section class="quick-info">
     <h2>Quick Info</h2>
-    <ul style="list-style-type:none">
+    <ul style="list-style-type: none; padding: 0;">
         <li>Weather Updates</li>
         <li>Travel Alerts</li>
         <li>Currency Exchange Info</li>
     </ul>
 </section>
 
+<section class="quick-facts">
+    <h2>Quick Facts About Taniti</h2>
+    <ul style="list-style-type: disc; padding-left: 20px;">
+        <li>Power Outlets: 120 volts (US Standard)</li>
+        <li>Currency: US Dollars (also accepts euros and yen)</li>
+        <li>Hospital and several clinics with multilingual staff</li>
+        <li>Low violent crime rate, but watch out for pickpocketing</li>
+        <li>Drinking age 18 (not strictly enforced)</li>
+        <li>Many national holidays impact business hours</li>
+    </ul>
+</section>
+
 <section class="newsletter">
     <h2>Get Updates and Deals</h2>
-    <form>
+    <form class="newsletter-form">
         <input type="email" placeholder="Enter your email" required>
         <button type="submit" class="btn">Subscribe</button>
     </form>
