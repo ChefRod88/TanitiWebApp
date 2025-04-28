@@ -7,6 +7,11 @@ body {
     color: white;
 }
 
+body {
+    font-family: 'Baloo 2', cursive;
+}
+
+
 
 /* Header */
 header {
@@ -39,6 +44,19 @@ nav a {
     nav a:hover {
         text-decoration: underline;
     }
+
+h1 {
+    font-size: 48px; /* or even bigger if you want */
+    font-weight: bold;
+    /*text-align: center;*/
+}
+
+p {
+    font-size: 35px; /* or even bigger if you want */
+    font-weight: bold;
+    /*text-align: center;*/
+}
+
 
 /* Hero Section */
 .hero {
