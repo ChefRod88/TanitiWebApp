@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Visit Taniti</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">Visit Taniti</div>
+        <nav>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Home" asp-action="Attractions">Attractions</a></li>
+                <li><a asp-controller="Home" asp-action="Lodging">Lodging</a></li>
+                <li><a asp-controller="Home" asp-action="Dining">Dining</a></li>
+                <li><a asp-controller="Home" asp-action="Transportation">Transportation</a></li>
+                <li><a asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Visit Taniti | <a href="#">Privacy Policy</a> | <a href="#">Social Media</a></p>
+    </footer>
+</body>
+</html>

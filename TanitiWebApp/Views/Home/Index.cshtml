@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero" style="background: url('/images/beach.jpg') no-repeat center center/cover;">
+    <h1>Welcome to Taniti</h1>
+    <p>Your next adventure awaits</p>
+    <a asp-controller="Home" asp-action="Attractions" class="btn">Plan Your Trip</a>
+</section>
+
+<section class="quick-links">
+    <h2>Explore</h2>
+    <div class="links">
+        <a asp-controller="Home" asp-action="Attractions" class="card">Attractions</a>
+        <a asp-controller="Home" asp-action="Lodging" class="card">Lodging</a>
+        <a asp-controller="Home" asp-action="Dining" class="card">Dining</a>
+        <a asp-controller="Home" asp-action="Transportation" class="card">Transportation</a>
+        <a asp-controller="Home" asp-action="Contact" class="card">Contact Us</a>
+    </div>
+</section>
+
+<section class="featured-activities">
+    <h2>Featured Activities</h2>
+    <div class="links">
+        <div class="card">Rainforest Hikes</div>
+        <div class="card">Volcano Tours</div>
+        <div class="card">Snorkeling & Beaches</div>
+        <div class="card">Local Art & Culture</div>
+    </div>
+</section>
+
+<section class="quick-info">
+    <h2>Quick Info</h2>
+    <ul style="list-style-type:none">
+        <li>Weather Updates</li>
+        <li>Travel Alerts</li>
+        <li>Currency Exchange Info</li>
+    </ul>
+</section>
+
+<section class="newsletter">
+    <h2>Get Updates and Deals</h2>
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn">Subscribe</button>
+    </form>
+</section>
+
